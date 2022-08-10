@@ -8,3 +8,21 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.res-text {
+    font-size: 2.2rem;
+}
+
+/* small device */
+@media screen and (max-width: 668px) {
+    .res-text {
+        font-size: 1.8rem;
+    }
+}
+
+/* medium device */
+@media screen and (min-width: 669px) and (max-width: 992px) {
+    .res-text {
+        font-size: 2rem;
+    }
+}
