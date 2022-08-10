@@ -23,6 +23,6 @@ body {
 /* medium device */
 @media screen and (min-width: 669px) and (max-width: 992px) {
     .res-text {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 }
