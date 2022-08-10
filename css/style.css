@@ -13,6 +13,39 @@ body {
     font-size: 2.2rem;
 }
 
+.cover-1 {
+    background-image: url(../images/cover/cover-1.png);
+    background-repeat: no-repeat;
+}
+
+.cover-2 {
+    background-image: url(../images/cover/cover-2.jpg);
+    background-repeat: no-repeat;
+}
+
+.cover-3 {
+    background-image: url(../images/cover/cover-3.jpg);
+    background-repeat: no-repeat;
+}
+
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    background-color: #1D1D1D;
+    opacity: 0.6;
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 /* small device */
 @media screen and (max-width: 668px) {
     .res-text {
